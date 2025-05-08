@@ -1,0 +1,12 @@
+{
+  "EnforcementMode": "Strict",
+  "LoggingProfiles": {
+    "default": {
+      "FieldSeverities": {
+        "userId": "Required",
+        "orderId": "Required",
+        "ssn": "Forbidden"
+      }
+    }
+  }
+}
